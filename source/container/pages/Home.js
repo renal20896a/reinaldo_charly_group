@@ -20,6 +20,7 @@ class Home extends Component{
 
                 {/* Internal Section */}
                 <Internal/>
+                <Text>asdfasdfsadfaksdfjkhasdfjhkasdjkfhasdjhfbjsadbfhjasbfkhasdkhjfbjasdhbfhkjsadbjfhbasdhjfbsd nbmnbmmmn nbbhgggh ghfyhfhg jhghg hggfhghf hggfhgfhgf hgfhgf</Text>
 
             </ScrollView>
         )
