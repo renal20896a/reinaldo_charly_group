@@ -2,6 +2,7 @@ import React from 'react';
 import {createAppContainer,createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 import Home from './source/container/pages/Home';
 import Info from './source/container/pages/Info';
+
 const Router = createStackNavigator(
   {
     Home
