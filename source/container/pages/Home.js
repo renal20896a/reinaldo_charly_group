@@ -15,7 +15,7 @@ class Home extends Component{
         return(
           <View>
             <View>
-                <ScrollView showsHorizontalScrollIndicator={false} horizontal style={{height:30}}>
+                <ScrollView showsHorizontalScrollIndicator={false} horizontal style={{height:100}}>
                     <TouchableOpacity style={{width: 100, alignSelf:'center'}} onPress={() => this.setState({A: FIK})}>
                         <Text style={{textAlign:'center'}}>FIK</Text>
                     </TouchableOpacity>

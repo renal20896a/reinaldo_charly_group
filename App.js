@@ -2,8 +2,8 @@ import React from 'react';
 import {createAppContainer,createBottomTabNavigator, createStackNavigator} from 'react-navigation';
 import Home from './source/container/pages/Home';
 import Info from './source/container/pages/Info';
-
-const Router = createStackNavigator(
+import Home1 from './source/container/pages/Home1';
+const home = createStackNavigator(
   {
     Home
   },
@@ -16,7 +16,20 @@ const Router = createStackNavigator(
   }
 )
 
-const Router2 = createStackNavigator(
+const home1 = createStackNavigator(
+  {
+    Home1
+  },
+  {
+    initialRouteName: 'Home1',
+    headerTitle: "Unklab",
+    defaultNavigationOptions:{
+      headerTitle: 'Tes'
+    }
+  }
+)
+
+const info = createStackNavigator(
   {
     Info
   },
@@ -31,11 +44,12 @@ const Router2 = createStackNavigator(
 
 const BotMenu = createBottomTabNavigator(
   {
-    Router,
-    Router2
+    home,
+    info,
+    home1
   },
   {
-    initialRouteName: 'Router'
+    initialRouteName: 'home'
   }
 )
 
