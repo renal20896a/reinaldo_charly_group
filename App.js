@@ -24,7 +24,7 @@ const home1 = createStackNavigator(
     initialRouteName: 'Home1',
     headerTitle: "Unklab",
     defaultNavigationOptions:{
-      headerTitle: 'Tes'
+      headerTitle: 'Unklab News'
     }
   }
 )
@@ -44,12 +44,12 @@ const info = createStackNavigator(
 
 const BotMenu = createBottomTabNavigator(
   {
-    home,
-    info,
-    home1
+    Home: home1,
+    News: home,
+    Info: info
   },
   {
-    initialRouteName: 'home'
+    initialRouteName: 'Home'
   }
 )
 

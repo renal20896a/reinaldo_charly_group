@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {View, Text, Image, ActivityIndicator, ImageBackground, RefreshControl} from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
-import MapView from 'react-native-maps';
+//import MapView from 'react-native-maps';
 
 class Info extends Component{
     render(){
         
         return(
             <ScrollView>
-                <ImageBackground source={require('../../../assets/info1.jpeg')} style={{height: 145}}>
+                <ImageBackground source={require('../../../assets/info1.jpg')} style={{height: 145}}>
                     <View  style={{flex:1, flexDirection:'row', marginTop:50, marginLeft:15}}>
                         <View style={{flex:1}}>
                             <Text style={{color: 'white', fontSize: 12, textAlign:'left'}}>The fear of the Lord</Text>

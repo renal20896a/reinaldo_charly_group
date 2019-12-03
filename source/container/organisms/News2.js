@@ -5,20 +5,14 @@ class News2 extends Component{
     render(){
         return(
 
-        <TouchableOpacity style={{marginHorizontal: 15, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor:'#E8E9ED'}}>
-            <Text> Salah posisi duduk bikin pekerja kantoran rentan</Text>
-            <View style={{flexDirection:'row', justifyContent: 'space-between', alignItems:'center', marginVertical : 10}}>
-                <View style={{height: 70, width:100}}>
-                    <Image source={require('../../../assets/ss.png')} style={{height: undefined, width: undefined, resizeMode:'cover', flex:1, borderRadius:6}} />
-                </View>
-                <View style={{height: 70, width:100, marginHorizontal:5}}>
-                    <Image source={require('../../../assets/ss.png')} style={{height: undefined, width: undefined, resizeMode:'cover', flex:1, borderRadius:6}} />
-                </View>
-                <View style={{height: 70, width:100}}>
-                    <Image source={require('../../../assets/ss.png')} style={{height: undefined, width: undefined, resizeMode:'cover', flex:1, borderRadius:6}} />
-                </View>
+        <TouchableOpacity style={{backgroundColor:'white', flexDirection:'row', alignItems:'center', justifyContent:'space-between', marginHorizontal: 15, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor:'#E8E9ED'}}>
+            <View style={{flex:1}}>
+            <Text>UNIQ goes to Finland</Text>
+
             </View>
-            <Text style={{alignSelf:'flex-end'}}>2019-11-22</Text>
+            <View style={{height: 70, width: 100}}>
+                <Image source={{uri:"http://www.unklab.ac.id/sites/default/files/inline-images/72436962_2817345141650811_8886161918083989504_o.jpg"}} style={{height:undefined, width:undefined, resizeMode:'cover', flex:1, borderRadius:6}}/>
+            </View>
         </TouchableOpacity>
         )
     }
