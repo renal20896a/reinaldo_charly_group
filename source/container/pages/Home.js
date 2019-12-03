@@ -70,6 +70,7 @@ const ALL = (
                     <News4/>
                     <News5/>
                     <News6/>
+                    <News6/>
                 </ScrollView>
             </View>
 )
